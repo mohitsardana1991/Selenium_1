@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Suite" verbose="1" >
+  
+  <test name="Google Test" >
+    <classes>
+       <class name="testngsuite.TC01" />
+    </classes>
+  </test>
+ 
+  <test name="Gmail Test" >
+    <classes>
+       <class name="testngsuite.TC02" />
+    </classes>
+  </test>
+  
+  <test name="Cricinfo Test" >
+    <classes>
+       <class name="testngsuite.TC03" />
+    </classes>
+  </test>
+  
+</suite>
